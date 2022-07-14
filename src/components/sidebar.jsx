@@ -10,7 +10,7 @@ import '../App.css'
 
 const Sidebar = () => { 
 
-    const mobile = useMediaQuery({query: '(max-width: 500px'}); 
+    const mobile = useMediaQuery({query: '(max-device-width: 40em)'}); 
 
     return ( 
 

@@ -14,7 +14,7 @@ const physicsDescription = [
 
 
 function App() {
-  const mobile = useMediaQuery({query: '(max-width: 500px'}); 
+  const mobile = useMediaQuery({query: '(max-device-width: 40em)'}); 
 
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
       <div className={mobile ? 'mobileContent' : 'laptopContent'}>
         <p>Hi! My name is Jacob, and I am a rising senior at Cornell University studying Computer Science and Physics. 
                     Below are some of the things I've built, worked on, or just found interesting.</p>
+
 
         <p>For the info below in a much cleaner format, here is my most recent <a href= {Resume} download={'Kochian-Resume.docx'}> resumé</a>.</p>
 
