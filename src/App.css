@@ -38,6 +38,7 @@
 .mobileContainer { 
     display:flex; 
     flex-direction: column;
+    padding-top: 1.5%
 }
 
 .photoInfoLaptop {

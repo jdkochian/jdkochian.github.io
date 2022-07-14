@@ -32,8 +32,6 @@ const Sidebar = () => {
 
 
                 </div>
-
-                {/* <ConwayGrid /> */}
             </div>
 
 
