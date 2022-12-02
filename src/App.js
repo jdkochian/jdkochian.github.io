@@ -48,13 +48,13 @@ function App() {
             link = {"https://www.ai-learners.com"} 
             linkText={'AI-Learners'}/> 
           <ContentCard 
-            title="OCaml Monopoly" 
+            title="Procedural Islands" 
             bullets = {[
-              "Created a terminal based Monopoly clone fully in OCaml for a term project for a college course", 
-              "Wrote purely functional code to handle basic gameplay while leveraging imperative features of OCaml to express games state", 
-              "Integrated support for custom boards in JSON format"
+              "Created a procedurally generated landscape using Unity and C# scripting for a computer graphics practicum", 
+              "Extended octave noise function to infinity using a chunk-like system to support an infinite world", 
+              "Used a suite of Unity features to increase immersion via particle effects, directional lighting, etc."
             ]} 
-            link = {'https://www.github.com/ckdesir/Monopoly-Ocaml'} 
+            link = {'https://github.com/adamrnasir/cs4621-procedural-islands'} 
             linkText = {'GitHub'}/>
         </div>
 
