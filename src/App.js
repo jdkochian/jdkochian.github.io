@@ -1,7 +1,7 @@
 import './App.css';
 import Sidebar from './components/sidebar';
 import ContentCard from './components/contentCard';
-import Resume from './Resume.docx'
+import Resume from './Resume.pdf'
 import {useMediaQuery} from 'react-responsive'; 
 
 
@@ -25,7 +25,7 @@ function App() {
                     Below are some of the things I've built, worked on, or just found interesting.</p>
 
 
-        <p>For the info below in a much cleaner format, here is my most recent <a href= {Resume} download={'Kochian-Resume.docx'}> resumé</a>.</p>
+        <p>For the info below in a much cleaner format, here is my most recent <a href= {Resume} download={'Resume.pdf'}> resumé</a>.</p>
 
         <div>
           <h1>What I've Worked On</h1> 
@@ -66,7 +66,7 @@ function App() {
           link = "https://www.github.com/jdkochian/3310" 
           linkText={'GitHub & Papers'}/>
 
-          <ContentCard 
+          {/* <ContentCard 
           title="Truffle"
           bullets={[
             "Truffle is a web browser extension that aims to improve viewer experience on livestreams on YouTube by adding in features like predictions, channel points, improved chat, etc.", 
@@ -75,7 +75,7 @@ function App() {
           ]}
           link="https://www.truffle.vip"
           linkText={'Truffle'}
-          />
+          /> */}
 
         
         </div>
