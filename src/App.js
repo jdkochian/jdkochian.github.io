@@ -1,6 +1,7 @@
 import "./App.css";
 import Sidebar from "./components/sidebar";
-import ContentCard from "./components/contentCard";
+import ContentCard from "./components/ContentCard";
+import ConwayGrid from "./components/ConwayGrid";
 import Resume from "./Resume.pdf";
 import { useMediaQuery } from "react-responsive";
 
@@ -33,7 +34,7 @@ function App() {
 
           <p>
             For the info below in a much cleaner format, here is my most recent{" "}
-            <a href={Resume} download={"Resume.pdf"}>
+            <a href={Resume} download={"Jacob_Kochian_Resume.pdf"}>
               {" "}
               resumé
             </a>
@@ -43,6 +44,16 @@ function App() {
           <div>
             <h1>What I've Worked On</h1>
             {/* <button onClick = {() => console.log({mobile})}>Is Mobile? </button> */}
+
+            <ContentCard
+              title="Asteroid Tracker Twitter Bot"
+              bullets={[
+                "Created a twitter bot that updates its status whenever a Near Earth Object (NEO) gets closest to Earth",
+                "Uses NASA API data and orbital mechanics to plot orbits at their time of close approach",
+              ]}
+              link={"https://www.twitter.com/AsteroidAlmanac"}
+              linkText={"@AsteroidAlmanac"}
+            />
 
             <ContentCard
               title="PDF Rendering Service"
@@ -96,7 +107,7 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <ConwayGrid grid={[true, false]}/> */}
+      {/* <ConwayGrid grid={[true, false]} /> */}
     </>
   );
 }
