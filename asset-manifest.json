@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.be2b3957.css",
-    "main.js": "/static/js/main.e72cd47b.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/headshot.JPG": "/static/media/headshot.5e7785d98abe4547651f.JPG",
-    "static/media/Resume.pdf": "/static/media/Resume.ad1c0d3bb7558f1967bc.pdf",
-    "static/media/linkedin.svg": "/static/media/linkedin.d09d64fe30b941c2d5dba4695179f496.svg",
-    "static/media/phone.svg": "/static/media/phone.915675a4fe5b126e1af021a8b8a229d7.svg",
-    "static/media/email.svg": "/static/media/email.09f59b228b67847fa9c917396a218b25.svg",
-    "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "main.css": "/static/css/main.987dd690.chunk.css",
+    "main.js": "/static/js/main.12006441.chunk.js",
+    "main.js.map": "/static/js/main.12006441.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.e2e3066b.js",
+    "runtime~main.js.map": "/static/js/runtime~main.e2e3066b.js.map",
+    "static/js/2.ff25e691.chunk.js": "/static/js/2.ff25e691.chunk.js",
+    "static/js/2.ff25e691.chunk.js.map": "/static/js/2.ff25e691.chunk.js.map",
+    "static/js/3.8ba39429.chunk.js": "/static/js/3.8ba39429.chunk.js",
+    "static/js/3.8ba39429.chunk.js.map": "/static/js/3.8ba39429.chunk.js.map",
     "index.html": "/index.html",
-    "main.be2b3957.css.map": "/static/css/main.be2b3957.css.map",
-    "main.e72cd47b.js.map": "/static/js/main.e72cd47b.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.be2b3957.css",
-    "static/js/main.e72cd47b.js"
-  ]
+    "precache-manifest.5fa752507bd5c58cb906cd4444b7eec8.js": "/precache-manifest.5fa752507bd5c58cb906cd4444b7eec8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.987dd690.chunk.css.map": "/static/css/main.987dd690.chunk.css.map",
+    "static/media/Resume.pdf": "/static/media/Resume.879781e8.pdf",
+    "static/media/email.svg": "/static/media/email.7a2e7622.svg",
+    "static/media/github.svg": "/static/media/github.1bb02710.svg",
+    "static/media/headshot.JPG": "/static/media/headshot.bdf07139.JPG",
+    "static/media/linkedin.svg": "/static/media/linkedin.9a4f74ce.svg",
+    "static/media/phone.svg": "/static/media/phone.2144889e.svg"
+  }
 }
