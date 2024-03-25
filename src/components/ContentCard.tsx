@@ -1,13 +1,29 @@
 import "../App.css";
 import React from "react";
 
-const BulletPoints = ({ bullets }) => {
+const BulletPoints = ({ bullets }: { bullets: string[] }) => {
   return (
-    <ul>{React.Children.toArray(bullets.map((entry) => <li>{entry}</li>))}</ul>
+    <ul>
+      {React.Children.toArray(
+        bullets.map((entry, idx) => <li key={idx}>{entry}</li>)
+      )}
+    </ul>
   );
 };
 
-const ContentCard = ({ title, bullets, link, linkText }) => {
+interface ContentCardProps {
+  title: string;
+  bullets: string[];
+  link?: string;
+  linkText?: string;
+}
+
+const ContentCard: React.FC<ContentCardProps> = ({
+  title,
+  bullets,
+  link,
+  linkText,
+}) => {
   return (
     <div
       style={{
