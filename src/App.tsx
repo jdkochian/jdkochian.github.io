@@ -5,11 +5,11 @@ import ConwayGrid from "./components/ConwayGrid";
 import Resume from "./Resume.pdf";
 import { useMediaQuery } from "react-responsive";
 import "./App.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 
 const router = () =>
-  createBrowserRouter([
+  createHashRouter([
     {
       path: "/",
       element: <Home />,
