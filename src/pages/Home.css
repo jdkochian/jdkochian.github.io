@@ -1,0 +1,68 @@
+.square {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: solid;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobileContent {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.laptopContent {
+  overflow-y: auto;
+  height: 95vh;
+  width: 60%;
+}
+
+.mediaIcon {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.laptopContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.5%;
+  background-color: white;
+}
+
+.mobileContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5%;
+}
+
+.photoInfoLaptop {
+  display: "flex";
+  flex-direction: column;
+  width: auto;
+}
+
+.headshotLaptop {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contactInfoLaptop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactInfoMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
